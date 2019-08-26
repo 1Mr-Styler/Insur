@@ -1,0 +1,1 @@
+Nombor\\sSijil\\n(?P<policy>.*)\\n(?:(?:.|\\n|\\r)*)Nama\\sPemegang\\sPolisi\\n?:?\\n(?P<name>[A-Z\\s]+)\\n?3?\\.?\\n?:?\\n(?P<dfrom>[0-9\\/]+)\\n(?:(?:.|\\n|\\r)*)Tarikh\\sLuput\\sInsurans\\n(?P<dto>[0-9\\/]+)(?P<addr1>)(?P<addr2>)(?P<addr3>)(?P<nric>)(?P<occupation>)(?P<mnfd>)(?P<make>)(?P<coverage>)(?P<premium>)(?P<seat>)

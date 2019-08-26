@@ -1,0 +1,4 @@
+ured Name\n1\s(?P<name>[a-zA-Z\s]+)\n.+?\nPolicy\sNo\nAddress\n(?P<policy>\w+)\n(?P<addr1>[a-zA-Z0-9\s\/]+$)\nNo,\sPolisi\n(?P<addr2>[a-zA-Z0-9\s\/]+$)\nAccount\sNo\.\n(?P<addr3>[a-zA-Z0-9\s]+)\n(?:[A-Z0-9]+\nNo\sAkaun)
+NRIC\sNo\.\n(?P<nric>[a-zA-Z0-9]+)(?:(?:.|\n|\r)*)Profession\s?:?\s?(?P<occupation>[a-zA-Z\s]+)\n(?:Peragaan\sPerjaan)(?:(?:.|\n|\r)*)[a-zA-Z\s]+a\)\sFrom\s(?P<dfrom>\d{2}-\d{2}-\d{4})(?:(?:.|\n|\r)*)
+Tempoh insurans\n(?P<dto>\d{2}-\d{2}-\d{4})(?:(?:.|\n)*)Year\sof\sManu(?:[a-z]+)\n(?P<mnfd>\d{4})
+(?:(?:.|\n)*)Type\sof\sBody\s?:?\s?(?P<make>[a-zA-Z0-9\s\.,]+)\nSeating\sCapacity\s?:?\s?(?P<seat>[0-9]{1,2})(?:(?:.|\n)*)Spare\sparts\n(?P<coverage>RM\s[0-9,\.]+)(?:(?:.|\n)*)Premium\n(?P<premium>[^a-zA-Z]+)\n

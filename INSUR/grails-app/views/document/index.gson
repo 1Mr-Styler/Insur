@@ -1,0 +1,21 @@
+response.status 200
+
+model {
+    ArrayList<String> text
+    String name
+    String policy_number
+    String expiry_date
+    String coverage_amount
+    String premium
+    ArrayList<String> error
+}
+
+json {
+    text text
+    name name
+    policy_number policy_number
+    expiry_date expiry_date
+    coverage_amount coverage_amount
+    premium premium
+    error error
+}

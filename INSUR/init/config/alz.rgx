@@ -1,0 +1,1 @@
+Policyholder\\n:\\s([a-zA-Z\\s]+)\\n(?:(?:.|\\n|\\r)*)Policy\\sNo\\.\\n:\\s(.*)\\n(?:(?:.|\\n|\\r)*)CASHLESS\\sPLAN\\s\\d\\n:\\sFrom\\s(.*)\\n(?:(?:.|\\n|\\r)*)()Total Premium\\n(.*)\\n

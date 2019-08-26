@@ -1,0 +1,1 @@
+Ref\\sNo:\\s(.*)(?:(?:.|\\n|\\r)*)Insured's\\sName\\n:\\s([a-zA-Z]+\\s?[a-zA-Z]+?.?.?.?.?.?.?.?.?.?.?.?)(?:(?:.|\\n|\\r)*)Period of Cover\\n(.*)(?:(?:.|\\n|\\r)*)Sum Insured\\n(RM\\s\\d+\\.?\\d{2}?)(?:(?:.|\\n|\\r)*)Total Premium\\n(RM\\s.*\\.?\\d{2}?)
