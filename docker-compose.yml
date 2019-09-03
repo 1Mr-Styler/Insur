@@ -2,7 +2,7 @@ version: '3'
 
 services:
  ner:
-  build: "./Server"
+  image: "insuradar/smartgenie_ner:latest"
   restart: always
   volumes:
    - ./Server:/apps/ner
@@ -10,12 +10,11 @@ services:
   entrypoint: /apps/ner/docker-entry.sh 
 
  ocr:
-  build: "./INSUR"
+  image: "insuradar/smartgenie_ocr:latest"
   restart: always
   volumes:
    - ./INSUR:/apps/ocr
    - ./model:/model
   ports:
    - 8090:8080
-   - 5055:5005
   entrypoint: /apps/ocr/docker-entry.sh
