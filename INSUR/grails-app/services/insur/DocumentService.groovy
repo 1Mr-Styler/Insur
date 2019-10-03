@@ -55,7 +55,7 @@ class DocumentService {
         StringBuilder pred = new StringBuilder()
 
         try {
-            def proc = "sbs ${file} /tmp/out --oem 1".execute()
+            def proc = "tesseract ${file} /tmp/out --oem 1".execute()
             proc.waitFor()
             def ypred = new File("/tmp/out.txt").getText('UTF-8').split("\n")
 
